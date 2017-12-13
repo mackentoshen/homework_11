@@ -1,0 +1,23 @@
+{
+  "name": "hometask",
+  "version": "1.0.0",
+  "description": "hometask using npm &amp; gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackentoshen/homework_11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mackentoshen/homework_11/issues"
+  },
+  "homepage": "https://github.com/mackentoshen/homework_11#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
