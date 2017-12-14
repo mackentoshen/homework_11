@@ -1,0 +1,25 @@
+.container {
+  max-width: 1190px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 237px;
+  height: 20px;
+}
+
+.pd-section {
+  padding: 4rem 0;
+}

@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!--<link href="styles/font-awesome.min.css" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto" rel="stylesheet">
+    <link href="styles/font-awesome.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" rel="stylesheet">
-    <!--<link href="styles/css/style.css" rel="stylesheet">-->
+    <link href="styles/css/style.css" rel="stylesheet">
 </head>
 <body>
 
 <header class="header-top">
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Currency:GBP<i class="fa fa-angle-down" aria-hidden="true"></i>
+            <div class="dropdown d-flex">
+                <button class="currency-btn btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Currency : GBP<i class="fa fa-angle-down" aria-hidden="true"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">USD</a>
@@ -24,12 +25,12 @@
                     <a class="dropdown-item" href="#">UAH</a>
                 </div>
             </div>
-            <div class="reg-container d-flex">
+            <div class="reg-container d-flex align-items-center">
                 <a href="#" class="reg-link">Register</a>
                 <a href="#" class="reg-link">Sign in</a>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>Empty<i class="fa fa-angle-down" aria-hidden="true"></i>
+                <div class="dropdown top-header-dropdown">
+                    <button class="cart-btn btn btn-secondary" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>empty<i class="fa fa-angle-down" aria-hidden="true"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
                         <a class="dropdown-item" href="#">There aren't any goods</a>
@@ -163,14 +164,16 @@
     </div>
 </section>
 <section class="goods-section"></section>
-<section class="lookbook-section">
+<section class="lookbook-section pd-section">
     <div class="container-fluid">
         <ul class="card-container row">
-            <li class="card-item col-lg-3 d-flex">
-               <img class="card-img" src="images/lookbook1.png" alt="man">
+            <li class="card-item col-xl-4 d-flex justify-content-between">
+               <div class="card-img-container">
+                   <img class="card-img img-fluid" src="images/lookbook1.png" alt="man">
+               </div>
                <div class="card-content">
                    <p class="card-title-bold">men's</p>
-                   <p class="card-title-bold">lookbook</p>
+                   <p class="card-title-normal">lookbook</p>
                    <p class="card-description">
                        Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem
                        consecteur dignissim laciniqui.Elementum metus facilisis ut phasellu.
@@ -178,11 +181,13 @@
                    <button class="card-btn">view now</button>
                </div>
             </li>
-            <li class="card-item col-lg-3 d-flex">
-                <img class="card-img" src="images/lookbook2.png" alt="woman">
+            <li class="card-item col-xl-4 d-flex">
+                <div class="card-img-container">
+                    <img class="card-img" src="images/lookbook2.png" alt="woman">
+                </div>
                 <div class="card-content">
                     <p class="card-title-bold">women's</p>
-                    <p class="card-title-bold">lookbook</p>
+                    <p class="card-title-normal">lookbook</p>
                     <p class="card-description">
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames .
                         Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.
@@ -190,11 +195,13 @@
                     <button class="card-btn">view now</button>
                 </div>
             </li>
-            <li class="card-item col-lg-3 d-flex">
-                <img class="card-img" src="images/photo-silhouette.png" alt="new">
+            <li class="card-item col-xl-4 d-flex">
+                <div class="card-img-container">
+                    <img class="card-img" src="images/photo-silhouette.png" alt="new">
+                </div>
                 <div class="card-content">
                     <p class="card-title-bold">your</p>
-                    <p class="card-title-bold">lookbook</p>
+                    <p class="card-title-normal">lookbook</p>
                     <p class="card-description">
                         See an item you like and click the  button to add it to your lookbook where you can create
                         your own perfect look. It’s like your own boutique!
@@ -356,7 +363,7 @@
         <div class="container">
             <div class="row">
                 <p class="copyright-text col-lg-6">© 2016 Avenue Fashion™</p>
-                <div class="dev-container col-lg-6">
+                <div class="dev-container col-lg-6 d-flex justify-content-end align-items-center">
                     <span class="dev-content">Design by <a href="#">RobbyDesigns.com</a></span>
                     <span class="dev-content">Dev by <a href="#">Loremipsum.com</a></span>
                 </div>
@@ -368,7 +375,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<!--<script src="js/common.js"></script>-->
+<script src="js/common.js"></script>
 </body>
 </html>
 

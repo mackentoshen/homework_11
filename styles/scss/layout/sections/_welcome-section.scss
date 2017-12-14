@@ -1,0 +1,16 @@
+.welcome-section {
+  background: url("../../images/2-layers.png") center center no-repeat;
+  background-size: cover;
+  height: calc(100vh - 53px);
+}
+
+.welcome-title {
+  color: #575153;
+  font-family: $Montserrat;
+  font-size: 400px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 22.5px;
+  text-align: center;
+}
+

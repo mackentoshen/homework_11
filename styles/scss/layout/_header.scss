@@ -1,0 +1,86 @@
+.header-top {
+  background-color: $banner-bckgr;
+}
+
+.currency-btn {
+  background: transparent;
+  border: none;
+  color: #777777;
+  font-family: $Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  outline: none;
+
+  &:hover {
+    background: transparent;
+    border: none;
+  }
+
+  .fa-angle-down {
+    margin-left: 10px;
+  }
+}
+
+.btn-secondary:focus {
+  box-shadow: none;
+}
+
+.reg-link {
+  color: #999999;
+  font-family: $Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  margin-left: 1rem;
+
+  &:hover {
+    text-decoration: none;
+    color: $white;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.top-header-dropdown {
+  background-color: $aqua;
+  margin-left: 5rem;
+  padding: .6rem 1.3rem;
+
+  .cart-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: $Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+
+    &:hover {
+      background: transparent;
+      border: none;
+    }
+
+    .fa-shopping-cart {
+      margin-right: 10px;
+    }
+
+    .fa-angle-down {
+      margin-left: 10px;
+    }
+  }
+
+  .dropdown-menu {
+
+    .show {
+      position: absolute;
+      transform: translate3d(0px, 53px, 0px);
+      top: 0;
+      left: 0;
+      will-change: transform;
+    }
+  }
+}

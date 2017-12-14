@@ -1,0 +1,119 @@
+// --------------------- FOOTER TOP --------------------- //
+
+.footer-top {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.footer-nav {
+  margin-bottom: 3rem;
+
+
+  .footer-menu-title {
+    margin-bottom: 1rem;
+    color: #575153;
+    font-family: $Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  .footer-menu-link {
+    color: #727272;
+    font-family: $Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-decoration: none;
+
+    &:hover {
+      list-style: none;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-banner {
+  .col-lg-6 {
+    max-width: 49%;
+  }
+
+  .footer-banner-notice {
+    background-color: $banner-bckgr;
+    padding: 50px 40px;
+    margin-right: 10px;
+
+    .banner-notice-bold {
+      color: #ffffff;
+      font-family: $Montserrat;
+      font-size: 36px;
+      line-height: 48px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-align: center;
+    }
+
+    .banner-notice-normal {
+      color: #ffffff;
+      font-family: $Montserrat;
+      font-size: 36px;
+      line-height: 48px;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      text-align: center;
+      font-weight: 300;
+    }
+  }
+
+  .banner-icons {
+    background-color: $aqua;
+    padding: 76px 144px;
+    margin-left: 10px;
+
+    .icon-link {
+      color: #ffffff;
+      font-family: "Font Awesome";
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 48px;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+    }
+  }
+}
+
+
+
+// --------------------- FOOTER BOTTOM ----------------- //
+
+.footer-bottom {
+  background-color: $banner-bckgr;
+  padding: 1.1rem 0;
+}
+
+.copyright-text {
+  color: #999999;
+  font-family: $Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.dev-content {
+  margin-right: 38px;
+  color: #777777;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    color: #777;
+  }
+}
