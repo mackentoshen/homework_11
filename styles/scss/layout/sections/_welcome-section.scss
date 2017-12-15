@@ -2,6 +2,18 @@
   background: url("../../images/2-layers.png") center center no-repeat;
   background-size: cover;
   height: calc(100vh - 53px);
+
+  .container-fluid {
+    padding: 20px 0;
+
+    .navbar {
+      //width: 100%;
+    }
+
+
+  }
+
+
 }
 
 .welcome-title {
