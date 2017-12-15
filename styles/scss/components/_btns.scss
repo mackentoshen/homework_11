@@ -1,5 +1,26 @@
 .welcome-btn {
-  margin: 0 auto;
+  background: transparent;
+  border: 1px solid $btn-font;
+  padding: 10px 15px;
+  margin: 0 100px 0 0;
   display: block;
   float: right;
+  color: #454647;
+  font-family: $Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+}
+
+.card-btn {
+  padding: 10px 15px;
+  background: $aqua;
+  border: none;
+  color: #f8f8f8;
+  font-family: $Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
 }
