@@ -57,14 +57,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Men's
+                            <a class="nav-link dropdown-toggle d-flex flex-column" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>Men's</span>
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <div class="d-flex">
-                                    <ul>
+                                <div class="d-flex justify-content-between dropdown-section">
+                                    <ul class="dropdown-list-container">
                                         <li>
-                                            <a href="#">casuals</a>
+                                            <span class="dropdown-title">casuals</span>
                                         </li>
                                         <li>
                                             <a href="#">Jackets</a>
@@ -85,9 +86,9 @@
                                             <a href="#">T-shirts</a>
                                         </li>
                                     </ul>
-                                    <ul>
+                                    <ul class="dropdown-list-container">
                                         <li>
-                                            <a href="#">formal</a>
+                                            <span class="dropdown-title">formal</span>
                                         </li>
                                         <li>
                                             <a href="#">Jackets</a>
@@ -103,32 +104,74 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
+                                <div class="nav-notice-wrapper">
                                     <p class="navigation-notice-bold">autumn sale</p>
                                     <p class="navigation-notice-normal">up to 50% off</p>
                                 </div>
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Woman's
+                            <a class="nav-link dropdown-toggle d-flex flex-column" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>Woman's</span>
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="d-flex justify-content-between dropdown-section">
+                                    <ul class="dropdown-list-container">
+                                        <li>
+                                            <span class="dropdown-title">casuals</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jackets</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Hoodies & Sweatshirts</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Polo shirts</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sportswear</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Trousers & chinos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">T-shirts</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown-list-container">
+                                        <li>
+                                            <span class="dropdown-title">formal</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jackets</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Shirts</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Suits</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Trousers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-notice-wrapper">
+                                    <p class="navigation-notice-bold">autumn sale</p>
+                                    <p class="navigation-notice-normal">up to 50% off</p>
+                                </div>
                             </div>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">the brand</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                local stores
+                            <a class="nav-link dropdown-toggle d-flex flex-column" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>local stores</span>
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -138,8 +181,9 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown" >
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                look book
+                            <a class="nav-link dropdown-toggle d-flex flex-column" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>look book</span>
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -149,9 +193,18 @@
                             </div>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="header-search-form form-inline my-2 my-lg-0">
+                        <input class="page-search form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="search-btn" type="submit">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
                     </form>
+                    <!--<form class="header-search-form">-->
+                        <!--<input class="page-search" type="text" placeholder="Search" size="20">-->
+                        <!--<button class="search-btn" type="submit">-->
+                            <!--<i class="fa fa-search" aria-hidden="true"></i>-->
+                        <!--</button>-->
+                    <!--</form>-->
                 </div>
             </nav>
         </header>
@@ -166,41 +219,51 @@
 <section class="goods-section">
     <div class="container-fluid">
         <ul class="row goods-nav">
-            <li class="goods-items">popular</li>
-            <li class="goods-items">new arrivals</li>
-            <li class="goods-items">best sellers</li>
-            <li class="goods-items">special offers</li>
-            <li class="goods-items">coming soon</li>
+            <li class="goods-items">
+                <a href="#" class="goods-links active">popular</a>
+            </li>
+            <li class="goods-items">
+                <a href="#" class="goods-links">new arrivals</a>
+            </li>
+            <li class="goods-items">
+                <a href="#" class="goods-links">best sellers</a>
+            </li>
+            <li class="goods-items">
+                <a href="#" class="goods-links">special offers</a>
+            </li>
+            <li class="goods-items">
+                <a href="#" class="goods-links">coming soon</a>
+            </li>
         </ul>
         <div class="row">
             <div class="col-xl-6">
                 <div class="row">
-                    <div class="col-xl-6">
-                        <span>£89.99</span>
+                    <div class="goods-wrap-sm col-xl-6">
+                        <span class="goods-price"><sup>£</sup>89.99</span>
                         <img class="goods-img img-fluid" src="images/photo.png" alt="photogoods">
                     </div>
-                    <div class="col-xl-6">
-                        <span>£47.50</span>
+                    <div class="goods-wrap-sm col-xl-6">
+                        <span class="goods-price"><sup>£</sup>47.50</span>
                         <img class="goods-img img-fluid" src="images/photo2.png" alt="photogoods">
                     </div>
-                    <div class="col-xl-12">
-                        <span>£69.95</span>
+                    <div class="goods-wrap-sm col-xl-12">
+                        <span class="goods-price"><sup>£</sup>69.95</span>
                         <img class="goods-img img-fluid" src="images/photo3.png" alt="photogoods">
                     </div>
                 </div>
             </div>
             <div class="col-xl-6">
                 <div class="row">
-                    <div class="col-xl-12">
-                        <span>£107  £89.99</span>
+                    <div class="goods-wrap-sm col-xl-12">
+                        <span class="goods-price"><sup>£</sup><span class="line-through">107</span>  <sup>£</sup>89.99</span>
                         <img class="goods-img img-fluid" src="images/photo4.png" alt="photogoods">
                     </div>
-                    <div class="col-xl-6">
-                        <span>£29.95</span>
+                    <div class="goods-wrap-sm col-xl-6">
+                        <span class="goods-price"><sup>£</sup>29.95</span>
                         <img class="goods-img img-fluid" src="images/photo5.png" alt="photogoods">
                     </div>
-                    <div class="col-xl-6">
-                        <span>£34.79</span>
+                    <div class="goods-wrap-sm col-xl-6">
+                        <span class="goods-price"><sup>£</sup>34.79</span>
                         <img class="goods-img img-fluid" src="images/photo6.png" alt="photogoods">
                     </div>
                 </div>
@@ -211,7 +274,7 @@
 <section class="lookbook-section pd-section">
     <div class="container-fluid">
         <ul class="card-container row">
-            <li class="card-item col-xl-4 d-flex justify-content-between">
+            <li class="card-item col-xl-4 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-between">
                <div class="card-img-container">
                    <img class="card-img img-fluid" src="images/lookbook1.png" alt="man">
                </div>
@@ -225,7 +288,7 @@
                    <button class="card-btn">view now</button>
                </div>
             </li>
-            <li class="card-item col-xl-4 d-flex">
+            <li class="card-item col-xl-4 col-lg-6 col-md-12 col-sm-12 d-flex">
                 <div class="card-img-container">
                     <img class="card-img" src="images/lookbook2.png" alt="woman">
                 </div>
@@ -239,7 +302,7 @@
                     <button class="card-btn">view now</button>
                 </div>
             </li>
-            <li class="card-item col-xl-4 d-flex">
+            <li class="card-item col-xl-4 col-lg-6 col-md-12 col-sm-12 d-flex">
                 <div class="card-img-container">
                     <img class="card-img" src="images/photo-silhouette.png" alt="new">
                 </div>
@@ -423,14 +486,3 @@
 </body>
 </html>
 
-<style>
-    .col-lg-2-10 {
-        flex: 0 0 25%;
-        max-width: 20%;
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-</style>

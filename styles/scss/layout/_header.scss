@@ -87,3 +87,143 @@
 
 // ----------------- HEADER BOTTOM ----------------------- //
 
+
+.navbar {
+  width: 90%;
+  margin: 0 100px;
+  justify-content: space-between !important;
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+}
+
+
+
+.nav-item {
+  margin-right: 40px;
+
+  .nav-link {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    .fa {
+      color: #989898;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .dropdown-menu {
+    padding: 30px;
+
+    .dropdown-section {
+      margin-bottom: 30px;
+
+      .dropdown-list-container {
+        margin-right: 20px;
+        width: 50%;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        li {
+          margin-bottom: 10px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .dropdown-title {
+            color: #575153;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 20px;
+            text-transform: uppercase;
+          }
+
+          a {
+            text-decoration: none;
+            color: #727272;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+
+    .nav-notice-wrapper {
+      min-width: 390px;
+      background-color: $banner-bckgr;
+      padding: 40px;
+
+      .navigation-notice-bold {
+        text-align: center;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+      }
+
+      .navigation-notice-normal {
+        text-align: center;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+      }
+    }
+  }
+}
+
+.header-search-form {
+  max-width: 13.13rem;
+  border: 1px solid rgba(133, 147, 159, 0.5);
+  padding: 0.2rem 0.5rem;
+  outline: none !important;
+
+
+  .page-search {
+    outline: none !important;
+    padding: 0;
+    max-width: 150px;
+    color: #989898;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 27px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .search-btn {
+    border: none;
+    background-color: transparent;
+    color: #989898;
+    font-family: "Font Awesome";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+}
+
+

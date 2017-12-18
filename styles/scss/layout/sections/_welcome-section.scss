@@ -2,29 +2,31 @@
   background: url("../../images/2-layers.png") center center no-repeat;
   background-size: cover;
   height: calc(100vh - 53px);
+  margin-bottom: 60px;
 
   .container-fluid {
     padding: 20px 0;
-
-    .navbar {
-      //padding: 38px 0;
-      //width: 100%;
-    }
-
-
   }
 
 
 }
 
-.welcome-title {
-  color: #575153;
-  font-family: $Montserrat;
-  font-size: 300px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 22.5px;
-  text-align: center;
-  margin-bottom: 40px;
+.welcome-block {
+  //max-width: 80%;
+  //display: flex;
+
+  .welcome-title {
+    color: #575153;
+    font-family: $Montserrat;
+    font-size: 300px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 22.5px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10%;
+  }
+
 }
+
 

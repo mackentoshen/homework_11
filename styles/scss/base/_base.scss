@@ -23,3 +23,12 @@ button:hover {
 .pd-section {
   padding: 4rem 0;
 }
+
+.col-lg-2-10 {
+  flex: 0 0 25%;
+  max-width: 20%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
